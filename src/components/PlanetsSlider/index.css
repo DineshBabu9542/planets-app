@@ -1,0 +1,34 @@
+/* Write your CSS here */
+
+* {
+  margin: 0px;
+}
+.plants-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 50px;
+  max-width: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.plants-heading {
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #05acff;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .plants-container {
+    padding: 90px;
+  }
+
+  .plants-heading {
+    font-size: 36px;
+  }
+}
